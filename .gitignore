@@ -1,0 +1,19 @@
+# Raw dta
+
+RAW_DATA/
+
+# Images
+
+IMAGES/
+
+
+# Virtual environment
+
+.venv/
+
+
+# Google Colab
+
+bcw_app
+
+bcw_model_training
