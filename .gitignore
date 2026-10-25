@@ -11,6 +11,9 @@ IMAGES/
 
 .venv/
 
+# Pickle file
+breast_cancer_model
+
 
 # Google Colab
 
