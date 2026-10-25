@@ -12,11 +12,11 @@ IMAGES/
 .venv/
 
 # Pickle file
-breast_cancer_model
+breast_cancer_model.pkl
 
 
 # Google Colab
 
-bcw_app
+bcw_app.ipynb
 
-bcw_model_training
+bcw_model_training.ipynb
