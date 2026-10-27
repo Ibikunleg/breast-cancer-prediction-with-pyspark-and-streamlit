@@ -100,7 +100,10 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 4. Run the application
-streamlit run app.py
+
+```python 
+streamlit run bcw_app.py 
+```
 Open the local URL displayed in the terminal, usually:
 http://localhost:8501
 
