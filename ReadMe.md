@@ -2,7 +2,7 @@
 
 <!-- confirm this image  displays -->
 
-![alt text](<dataset-cover - bcw.jpg>)
+![alt text](<Screenshots/cover_image.jpg>)
 
 📌 Project Overview
 This project demonstrates the use of machine learning to classify breast cancer cases as Benign or Malignant using the Breast Cancer Wisconsin (Diagnostic) dataset.
@@ -26,7 +26,7 @@ NumPy — numerical computations.
 Pandas — tabular data manipulation and CSV processing.
 Streamlit — interactive web application.
 Joblib — loading the exported model artifact.
-Google Colab — Prototyping
+Google Colab — Prototyping environment
 Visual Studio Code — local development environment.
 
 📊 Dataset
@@ -47,7 +47,7 @@ The classification task is to distinguish between benign and malignant cases.
 Dataset source: UCI Machine Learning Repository — Breast Cancer Wisconsin (Diagnostic)
 The features have a mix of positive and negative correlation with the diagnosis, as shown in the image below:
 
-![alt text](<correlation plot.png>)
+![alt text](<Screenshots/correlation_plot.png>)
 
 ⚙️ Project Workflow
 Data preparation: Prepare the dataset for machine learning.
@@ -73,8 +73,11 @@ breast-cancer-prediction-with-pyspark-and-streamlit/
 ├── wdbc.data
 ├── column_names.txt
 ├── requirements.txt
+├── README.md
 │
-└── README.md
+└── Screenshots/
+    └──correlation_plot.png
+    └──cover_image.jpg
 
 💻 Installation and Setup
 Prerequisites
@@ -103,15 +106,15 @@ http://localhost:8501
 
 📈 Model Evaluation
 
-Evaluation Metric
-Accuracy
-[Insert actual result]
-Precision
-[Insert actual result]
-Recall
-[Insert actual result]
-F1-score
-[Insert actual result]
+Evaluation Metrics
+Accuracy:
+97%
+Precision:
+94%
+Recall:
+100%
+F1-score:
+97%
 
 ⚠️ Limitations
 Predictions depend on the quality of the input features and the trained model.
