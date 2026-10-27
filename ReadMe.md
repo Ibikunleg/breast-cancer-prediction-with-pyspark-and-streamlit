@@ -82,7 +82,7 @@ Downloadable batch prediction results.
 ## 📁 Project Structure  
 
 
-breast-cancer-prediction-with-pyspark-and-streamlit/
+breast-cancer-prediction-with-pyspark-and-streamlit/  
 │    
 ├── bcw_app.py  
 ├── bcw_model_training.py  
