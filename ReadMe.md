@@ -1,16 +1,20 @@
-🎗️ Breast Cancer Prediction with PySpark and Streamlit
+# 🎗️ Breast Cancer Prediction with PySpark and Streamlit
 
 <!-- confirm this image  displays -->
 
 ![alt text](<Screenshots/cover_image.jpg>)
 
-📌 Project Overview
+## 📌 Project Overview  
+
+
 This project demonstrates the use of machine learning to classify breast cancer cases as Benign or Malignant using the Breast Cancer Wisconsin (Diagnostic) dataset.
 The model is trained using PySpark's Logistic Regression algorithm, with feature scaling applied during model development. The trained model parameters are then used to build an interactive web application with Streamlit, allowing users to submit input features and obtain predictions.
 The project combines distributed data processing, machine learning and web application development in a single workflow.
 Disclaimer: This project is intended for educational and demonstration purposes only. It is not a clinically validated diagnostic tool and must not be used to make medical decisions.
 
-🎯 Project Objectives
+## 🎯 Project Objectives  
+
+
 Apply PySpark to a machine learning classification problem.
 Develop a Logistic Regression model for binary classification.
 Apply feature scaling consistently between training and prediction.
@@ -18,7 +22,9 @@ Export the trained model parameters for use outside the training environment.
 Build an interactive prediction interface using Streamlit.
 Support individual predictions and batch predictions through CSV uploads.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used  
+
+
 Python — programming language.
 PySpark — data processing and machine learning.
 Spark MLlib — Logistic Regression and model training.
@@ -29,7 +35,9 @@ Joblib — loading the exported model artifact.
 Google Colab — Prototyping environment
 Visual Studio Code — local development environment.
 
-📊 Dataset
+## 📊 Dataset  
+
+
 The project uses the Breast Cancer Wisconsin (Diagnostic) dataset, which contains numerical features computed from digitised images of breast mass samples.
 The dataset includes 30 numerical features describing characteristics such as:
 Radius
@@ -49,7 +57,9 @@ The features have a mix of positive and negative correlation with the diagnosis,
 
 ![alt text](<Screenshots/correlation_plot.png>)
 
-⚙️ Project Workflow
+## ⚙️ Project Workflow  
+
+
 Data preparation: Prepare the dataset for machine learning.
 Feature processing: Select the numerical input features and apply the required preprocessing.
 Model training: Train a Logistic Regression classifier using PySpark.
@@ -57,7 +67,8 @@ Model export: Save the parameters required to reproduce predictions.
 Application development: Build a Streamlit interface for manual input and CSV uploads.
 Prediction: Apply the same feature scaling and classification logic used during training.
 Results: Display the predicted class and estimated malignant probability.
-🚀 Features
+## 🚀 Features  
+
 Interactive Streamlit interface.
 Manual entry of the 30 numerical features.
 CSV template download for batch predictions.
@@ -65,7 +76,10 @@ CSV upload and input validation.
 Individual and batch classification.
 Estimated malignant probability.
 Downloadable batch prediction results.
-📁 Project Structure
+
+## 📁 Project Structure  
+
+
 breast-cancer-prediction-with-pyspark-and-streamlit/
 │
 ├── bcw_app.py
@@ -79,7 +93,9 @@ breast-cancer-prediction-with-pyspark-and-streamlit/
     └──correlation_plot.png
     └──cover_image.jpg
 
-💻 Installation and Setup
+## 💻 Installation and Setup  
+
+
 Prerequisites
 Python installed on your system.
 Visual Studio Code.
@@ -107,7 +123,8 @@ streamlit run bcw_app.py
 Open the local URL displayed in the terminal, usually:
 http://localhost:8501
 
-📈 Model Evaluation
+## 📈 Model Evaluation  
+
 
 Evaluation Metrics
 Accuracy:
@@ -119,15 +136,19 @@ Recall:
 F1-score:
 97%
 
-⚠️ Limitations
+## ⚠️ Limitations  
+
+
 Predictions depend on the quality of the input features and the trained model.
 The model has not been established as a clinically validated diagnostic system.
 The estimated probability should not be interpreted as an individual's actual cancer risk.
 The application requires the compatible exported model artifact to be available locally.
 
-👨‍💻 Author: [Ibikunle Gabriel]
+## 👨‍💻 Author: [Ibikunle Gabriel]  
+
 GitHub: [GitHub Profile](https://github.com/Ibikunleg/)
 LinkedIn: [Linkedin](https://linkedin.com/in/ibikunle-gabriel)
 Email: ibikunlesgabriel@gmail.com
+
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
