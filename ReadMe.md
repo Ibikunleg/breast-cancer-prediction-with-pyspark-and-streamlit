@@ -27,8 +27,8 @@ Pandas — tabular data manipulation and CSV processing.
 Streamlit — interactive web application.
 Joblib — loading the exported model artifact.
 Google Colab — Prototyping
-
 Visual Studio Code — local development environment.
+
 📊 Dataset
 The project uses the Breast Cancer Wisconsin (Diagnostic) dataset, which contains numerical features computed from digitised images of breast mass samples.
 The dataset includes 30 numerical features describing characteristics such as:
