@@ -152,5 +152,7 @@ GitHub: [GitHub Profile](https://github.com/Ibikunleg/)
 LinkedIn: [Linkedin](https://linkedin.com/in/ibikunle-gabriel)  
 Email: ibikunlesgabriel@gmail.com  
 
+The application is hosted on Streamlit Cloud, and can be accessed [here]( https://breast-cancer-prediction-with-pyspark-and-app-uztrnemda47u8s7s.streamlit.app/)  
+
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
