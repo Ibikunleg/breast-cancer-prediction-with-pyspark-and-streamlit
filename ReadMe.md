@@ -15,12 +15,12 @@ Disclaimer: This project is intended for educational and demonstration purposes 
 ## 🎯 Project Objectives  
 
 
-Apply PySpark to a machine learning classification problem.  
-Develop a Logistic Regression model for binary classification.  
-Apply feature scaling consistently between training and prediction.  
-Export the trained model parameters for use outside the training environment.  
-Build an interactive prediction interface using Streamlit.  
-Support individual predictions and batch predictions through CSV uploads.  
+- Apply PySpark to a machine learning classification problem.  
+- Develop a Logistic Regression model for binary classification.  
+- Apply feature scaling consistently between training and prediction.  
+- Export the trained model parameters for use outside the training environment.  
+- Build an interactive prediction interface using Streamlit.  
+- Support individual predictions and batch predictions through CSV uploads.  
 
 ## 🛠️ Technologies Used  
 
@@ -92,8 +92,8 @@ breast-cancer-prediction-with-pyspark-and-streamlit/
 ├── README.md  
 │  
 └── Screenshots/  
-    └──correlation_plot.png  
-    └──cover_image.jpg  
+│    └──correlation_plot.png  
+│    └──cover_image.jpg  
 
 ## 💻 Installation and Setup  
 
